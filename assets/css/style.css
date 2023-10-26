@@ -144,7 +144,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    background: url('../images/reasons-image.webp')no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -158,6 +158,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Meet Ups Section */
+#times {
+    background: url('assets/images/dublin-city.webp')no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
 }
 
 /* Footer */
