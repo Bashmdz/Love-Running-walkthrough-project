@@ -163,6 +163,7 @@ main {
 /* Meetup Times section */
 #times {
     background: url('../images/dublin-city.webp') no-repeat center/cover;
+    background-position: 75%;
     /* Handles responsivity without the need for a media query */
     display: flex;
     flex-wrap: wrap;
@@ -194,6 +195,12 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Sign Up Page */
+#sign-up {
+    background: url('../images/signup-image.webp') no-repeat center/cover;
+
 }
 
 /* Footer */

@@ -94,16 +94,25 @@
             required
           />
           <br />
-          <label for="road">Road</label>
-          <input type="radio" name="road" id="road" required />
+    <div class="radio-buttons" required>
+        <div>
+            <label for="road">Road</label>
+          <input type="radio" name="running_preference" id="road" value="road" required checked/>
+        </div>
           <br />
-          <label for="trail">Trail</label>
-          <input type="radio" name="trail" id="trail" required />
+        <div>
+            <label for="trail">Trail</label>
+          <input type="radio" name="running_preference" id="trail" value="trail" required checked/>
+        </div>
           <br />
-          <label for="both">Both</label>
-          <input type="radio" name="both" id="both" required />
-          <label></label>
-          <input type="submit" class="join-button" value="Submit Form" />
+        <div>
+            <label for="both">Both</label>
+          <input type="radio" name="running_preference" id="both" value="both" required checked/>
+        </div>
+    </div>
+          <br>
+        <form action="submit.php" method="post">
+          <button type="submit" class="join-button">Let's Run!</button>
         </form>
       </section>
     </main>
